@@ -1,0 +1,131 @@
+[
+  {
+    "id": "email_1",
+    "sender": "manager@company.com",
+    "subject": "Project update meeting",
+    "timestamp": "2025-11-20T10:00:00",
+    "body": "Hi, can we meet tomorrow at 3 PM to discuss the project roadmap? Please confirm and share an agenda."
+  },
+  {
+    "id": "email_2",
+    "sender": "newsletter@techdaily.com",
+    "subject": "Your weekly tech digest",
+    "timestamp": "2025-11-19T08:00:00",
+    "body": "Here are this week's top tech stories and resources..."
+  },
+  {
+    "id": "email_3",
+    "sender": "hr@company.com",
+    "subject": "Submit timesheet",
+    "timestamp": "2025-11-18T09:00:00",
+    "body": "Please submit your timesheet for this week by Friday EOD."
+  },
+
+  {
+    "id": "email_4",
+    "sender": "client@abcsolutions.com",
+    "subject": "Follow-up on last deliverable",
+    "timestamp": "2025-11-17T15:30:00",
+    "body": "Hello, could you please send the revised version of the analytics report by Wednesday? The client presentation is approaching."
+  },
+  {
+    "id": "email_5",
+    "sender": "events@company.com",
+    "subject": "Company Townhall Invitation",
+    "timestamp": "2025-11-17T12:45:00",
+    "body": "You are invited to the monthly company townhall on Friday at 11 AM. Please RSVP."
+  },
+  {
+    "id": "email_6",
+    "sender": "no-reply@shoppingzone.com",
+    "subject": "⚠️ Offer Ends Soon – Flat 70% Off!",
+    "timestamp": "2025-11-17T06:15:00",
+    "body": "Huge sale on electronics and accessories. Grab your deal now!"
+  },
+  {
+    "id": "email_7",
+    "sender": "colleague@company.com",
+    "subject": "Need details for deployment",
+    "timestamp": "2025-11-16T14:20:00",
+    "body": "Can you share the final environment variables and configuration file for tomorrow's deployment?"
+  },
+  {
+    "id": "email_8",
+    "sender": "support@internethost.com",
+    "subject": "Server Maintenance Notice",
+    "timestamp": "2025-11-16T07:55:00",
+    "body": "Scheduled maintenance will occur on Sunday from 2–4 AM. Services may be temporarily unavailable."
+  },
+  {
+    "id": "email_9",
+    "sender": "friend@example.com",
+    "subject": "Meeting this weekend?",
+    "timestamp": "2025-11-15T20:30:00",
+    "body": "Hey! Are you free to meet this weekend? Let me know so we can plan something."
+  },
+
+  {
+    "id": "email_10",
+    "sender": "notifications@bank.com",
+    "subject": "Monthly statement available",
+    "timestamp": "2025-11-15T10:05:00",
+    "body": "Your monthly account statement is now available for download."
+  },
+  {
+    "id": "email_11",
+    "sender": "marketing@travelworld.com",
+    "subject": "🎉 Travel Packages Starting at ₹4999!",
+    "timestamp": "2025-11-14T09:10:00",
+    "body": "Explore exclusive travel deals for your next holiday. Limited time only!"
+  },
+  {
+    "id": "email_12",
+    "sender": "teamlead@company.com",
+    "subject": "Code review required",
+    "timestamp": "2025-11-14T15:45:00",
+    "body": "Please complete the code review for the payment module by EOD today. It must be merged before sprint closure."
+  },
+  {
+    "id": "email_13",
+    "sender": "admin@company.com",
+    "subject": "Workstation upgrade schedule",
+    "timestamp": "2025-11-13T13:00:00",
+    "body": "Your workstation upgrade is scheduled for next Monday at 10 AM. Ensure that you back up important files."
+  },
+  {
+    "id": "email_14",
+    "sender": "recruitment@company.com",
+    "subject": "Interview Panel Confirmation",
+    "timestamp": "2025-11-13T10:30:00",
+    "body": "Please confirm your availability for conducting interviews on Thursday between 2–5 PM."
+  },
+  {
+    "id": "email_15",
+    "sender": "vendor@supplies.com",
+    "subject": "Invoice for last month",
+    "timestamp": "2025-11-12T16:00:00",
+    "body": "Attached is the invoice for last month's office supplies. Kindly process it for payment."
+  },
+  {
+    "id": "email_16",
+    "sender": "projectmanager@company.com",
+    "subject": "Sprint Planning Agenda",
+    "timestamp": "2025-11-12T11:30:00",
+    "body": "Tomorrow's sprint planning meeting will include backlog grooming, task assignment, and timeline adjustments."
+  },
+  {
+    "id": "email_17",
+    "sender": "security@company.com",
+    "subject": "Password Expiry Reminder",
+    "timestamp": "2025-11-12T09:00:00",
+    "body": "Your password will expire in 5 days. Please change it to avoid interruptions."
+  },
+  {
+    "id": "email_18",
+    "sender": "college@edu.com",
+    "subject": "Assignment Deadline Reminder",
+    "timestamp": "2025-11-11T18:20:00",
+    "body": "This is a reminder that your Machine Learning assignment is due tomorrow. Please submit it via the portal."
+  }
+]
+

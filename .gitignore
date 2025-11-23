@@ -1,0 +1,15 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Streamlit cache and Python caches
+.streamlit/
+__pycache__/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini

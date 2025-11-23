@@ -1,0 +1,20 @@
+[
+  {
+    "draft_id": "draft_1",
+    "email_id": "email_3",
+    "subject": "Re: Submit timesheet",
+    "body": "```json\n{\n  \"subject\": \"Re: Submit timesheet\",\n  \"body\": \"Hi HR Team, thank you for the reminder. I will submit my timesheet for this week by Friday EOD as requested. If you need any additional information, please let me know.\",\n  \"suggested_follow_ups\": [\n    \"Awaiting confirmation of receipt of timesheet\",\n    \"Checking in on the status of timesheet submission next week\"\n  ]\n}\n```",
+    "metadata": {
+      "suggested_follow_ups": []
+    }
+  },
+  {
+    "draft_id": "draft_2",
+    "email_id": "email_7",
+    "subject": "Re: Need details for deployment",
+    "body": "```json\n{\n  \"subject\": \"Re: Need details for deployment\",\n  \"body\": \"Hi [colleague's name], thank you for reaching out. I'd be happy to provide you with the final environment variables and configuration file. However, I'd like to confirm the details before sharing them. Could you please let me know if there's a specific time or format you'd prefer me to share them in? Additionally, would you like me to send them via email or through our project management tool?\",\n  \"suggested_follow_ups\": [\n    \"Please confirm the preferred method of sharing the details\",\n    \"Request an agenda or meeting to discuss the deployment\",\n    \"Ask for a specific deadline for receiving the final environment variables and configuration file\"\n  ]\n}\n```\n\nNote: I've assumed the colleague's name is not provided in the original email, so I've left it as `[colleague's name]`. You can replace it with the actual name if available.",
+    "metadata": {
+      "suggested_follow_ups": []
+    }
+  }
+]
