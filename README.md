@@ -69,15 +69,13 @@ email-agent/
 │   ├── draft_agent.py
 │   ├── llm_client.py
 │   ├── storage.py
-│   └── gmail_fetcher.py (optional)
 │
 ├── data/
 │   ├── mock_inbox.json
 │   ├── prompts.json
 │   ├── drafts.json
 │   ├── processed_emails.json
-│
-└── .venv/ (NOT pushed to GitHub)
+
 
 **Installation & Setup**
 1. Clone the Repository
