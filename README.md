@@ -1,6 +1,6 @@
 # Prompt-Driven Email Productivity Agent
  
-_AI-powered email organizer, task extractor, summarizer, and draft generator — built using Streamlit + Groq LLaMA 3.1._
+_AI-powered email organizer, task extractor, summarizer, and draft generator, built using Streamlit + Groq LLaMA 3.1._
 
 ---
 
