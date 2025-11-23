@@ -1,61 +1,84 @@
 # Prompt-Driven Email Productivity Agent
+ 
+_AI-powered email organizer, task extractor, summarizer, and draft generator — built using Streamlit + Groq LLaMA 3.1._
 
-Powered by Groq (LLaMA 3.1 8B Instant) + Streamlit
+---
 
-This project is a fully functional AI Email Productivity Agent that:
+## Overview
 
-1. Loads a mock inbox
-2. Processes emails
-3. Extracts action items
-4. Categorizes emails
-5. Summarizes emails
-6. Generates reply drafts
-7. Allows natural-language queries over the inbox
-8. Provides custom prompts to shape agent behavior
+This project is an **AI-driven Email Productivity Agent** that processes a mock inbox and performs:
 
-It is built using Python, Streamlit, and Groq API.
+- **Email categorization**
+- **Action-item extraction**
+- **Automatic summarization**
+- **Reply draft generation**
+- **Inbox-wide analysis**
+- **Prompt-driven behavior** (via customizable “Agent Brain” prompts)
 
-**Features**
-1. Prompt Brain (Fully Customizable Prompts)
+Built using:
 
--Categorization prompt
--Action item extraction prompt
--Auto-reply generation prompt
--All editable in the UI
--Saved in prompts.json
+- Python  
+- Streamlit  
+- Groq API (LLaMA 3.1 8B Instant)  
+- Local JSON storage  
 
-2. Email Ingestion + Processing
+---
 
-For each email, the agent automatically:
+## Key Features
 
--Categorizes
--Extracts tasks
--Summarizes
--Stored in processed_emails.json.
+### 1. Prompt Brain (Fully Customizable)
+Edit and save prompts controlling:
+- Email categorization  
+- Task detection  
+- Auto-reply generation  
 
-3. Email Agent Chat
+Prompts persist in `prompts.json`.
 
-Ask things like:
+---
 
-“Summarize this email”
-“What tasks do I need to do?”
-“Draft a reply in a friendly tone”
-“Does this email need urgent action?”
+### 2. Inbox Processing
+Click **Load & Process Inbox** to automatically:
 
-4. Inbox-Level Agent Chat
+- Categorize each email  
+- Extract tasks  
+- Generate concise summaries  
 
-Ask across all emails:
-“Show me all urgent emails”
-“List all To-Do items”
-“Summaries of important emails”
+Stored in `processed_emails.json`.
 
-5. Auto-Reply Draft Generator
+---
 
-Generates subject + body
-Suggests follow-up actions
-Saves drafts in drafts.json
+### 3. Email Agent
+Ask natural-language questions:
 
-**Folder Structure**
+- “Summarize this email”  
+- “What tasks do I need to do?”  
+- “Draft a reply in a friendly tone”  
+- “Is this email urgent?”  
+
+---
+
+### 4. Inbox-Level Agent
+Query across the whole inbox:
+
+- “Show all urgent emails”  
+- “List pending tasks”  
+
+---
+
+### 5. Reply Draft Generator
+Generates:
+- Subject  
+- Body  
+- Follow-up suggestions  
+
+Drafts saved in: data/drafts.json
+
+
+---
+
+## 📁 Project Structure
+
+```text
 email-agent/
 │── app.py
 │── README.md
@@ -75,9 +98,10 @@ email-agent/
 │   ├── prompts.json
 │   ├── drafts.json
 │   ├── processed_emails.json
+```
 
 
-**Installation & Setup**
+## Installation & Setup
 1. Clone the Repository
 git clone https://github.com/YOUR_USERNAME/email-agent.git
 cd email-agent
@@ -97,7 +121,7 @@ source .venv/bin/activate
 3. Install Dependencies
 pip install -r requirements.txt
 
-**Setup API Key (Groq)**
+## Setup API Key (Groq)
 
 1. Create a Groq account: https://console.groq.com
 
@@ -112,7 +136,7 @@ Inside .env:
 GROQ_API_KEY=your_actual_key_here
 
 
-**Mock Inbox**
+## Mock Inbox
 
 You can edit the mock inbox here:
 data/mock_inbox.json
@@ -128,7 +152,7 @@ Contains ~15 realistic sample emails covering:
 -Newsletters
 -Promo/Spam
 
-**Running the App**
+## Running the App
 
 Start the Streamlit app:
 
@@ -139,7 +163,7 @@ The app will open at:
 
 http://localhost:8501
 
-**How to Use the UI**
+## How to Use the UI
 TAB 1: Prompt Brain
 -Edit Categorization Prompt
 -Edit Action Item Prompt
