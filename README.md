@@ -142,24 +142,24 @@ You can edit the mock inbox here:
 data/mock_inbox.json
 
 
-Contains ~15 realistic sample emails covering:
+Contains **~15 realistic sample emails** covering:
 
--HR
--Manager requests
--Tasks
--Meetings
--Reminders
--Newsletters
--Promo/Spam
+-**HR**
+-**Manager requests**
+-**Tasks**
+-**Meetings**
+-**Reminders**
+-**Newsletters**
+-**Promo/Spam**
 
 ## Running the App
 
-Start the Streamlit app:
+### Start the Streamlit app:
 
 streamlit run app.py
 
 
-The app will open at:
+### The app will open at:
 
 http://localhost:8501
 
