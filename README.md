@@ -2,7 +2,6 @@
  
 _AI-powered email organizer, task extractor, summarizer, and draft generator, built using Streamlit + Groq LLaMA 3.1._
 
----
 
 ## Overview
 
@@ -22,7 +21,6 @@ Built using:
 - Groq API (LLaMA 3.1 8B Instant)  
 - Local JSON storage  
 
----
 
 ## Key Features
 
@@ -34,7 +32,6 @@ Edit and save prompts controlling:
 
 Prompts persist in `prompts.json`.
 
----
 
 ### 2. Inbox Processing
 Click **Load & Process Inbox** to automatically:
@@ -45,7 +42,6 @@ Click **Load & Process Inbox** to automatically:
 
 Stored in `processed_emails.json`.
 
----
 
 ### 3. Email Agent
 Ask natural-language questions:
@@ -55,7 +51,6 @@ Ask natural-language questions:
 - “Draft a reply in a friendly tone”  
 - “Is this email urgent?”  
 
----
 
 ### 4. Inbox-Level Agent
 Query across the whole inbox:
@@ -63,7 +58,6 @@ Query across the whole inbox:
 - “Show all urgent emails”  
 - “List pending tasks”  
 
----
 
 ### 5. Reply Draft Generator
 Generates:
@@ -73,8 +67,6 @@ Generates:
 
 Drafts saved in: data/drafts.json
 
-
----
 
 ## 📁 Project Structure
 
@@ -144,13 +136,13 @@ data/mock_inbox.json
 
 Contains **~15 realistic sample emails** covering:
 
--**HR**
--**Manager requests**
--**Tasks**
--**Meetings**
--**Reminders**
--**Newsletters**
--**Promo/Spam**
+- **HR**
+- **Manager requests**
+- **Tasks**
+- **Meetings**
+- **Reminders**
+- **Newsletters**
+- **Promo/Spam**
 
 ## Running the App
 
@@ -171,7 +163,6 @@ http://localhost:8501
 - Edit **Auto-Reply Prompt**
 - Click **Save Prompts** to store your changes
 
----
 
 ### **TAB 2: Inbox**
 1. Click **Load & Process Inbox**
@@ -183,7 +174,6 @@ http://localhost:8501
    - “Show me urgent emails”
    - “List To-Do items”
 
----
 
 ### **TAB 3: Email Agent & Drafts**
 1. **Select an email** from the dropdown
