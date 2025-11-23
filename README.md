@@ -163,29 +163,35 @@ The app will open at:
 
 http://localhost:8501
 
-## How to Use the UI
-TAB 1: Prompt Brain
--Edit Categorization Prompt
--Edit Action Item Prompt
--Edit Auto-Reply Prompt
--Click Save Prompts
+## 🧭 How to Use the UI
 
-TAB 2: Inbox
-1.Click Load & Process Inbox
-2.View:
-  Category
-  Tasks
-  Summary
-3.Ask the inbox agent:
-  “Show me urgent emails”
-  “List To-Do items”
+### **TAB 1: Prompt Brain**
+- Edit **Categorization Prompt**
+- Edit **Action Item Prompt**
+- Edit **Auto-Reply Prompt**
+- Click **Save Prompts** to store your changes
 
-TAB 3: Email Agent & Drafts
-1.Select an email
-2.Ask:
-  “Summarize this email”
-  “What tasks do I need to do?”
-3.Generate reply draft (tone optional)
-4.View saved drafts
+---
+
+### **TAB 2: Inbox**
+1. Click **Load & Process Inbox**
+2. View generated data for each email:
+   - **Category**
+   - **Tasks / Action Items**
+   - **Summary**
+3. Ask the inbox agent questions such as:
+   - “Show me urgent emails”
+   - “List To-Do items”
+
+---
+
+### **TAB 3: Email Agent & Drafts**
+1. **Select an email** from the dropdown
+2. Ask questions like:
+   - “Summarize this email”
+   - “What tasks do I need to do?”
+3. Generate a **reply draft** (you can specify tone)
+4. View all saved drafts at the bottom of the page
+
 
 
